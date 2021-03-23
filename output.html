@@ -1,0 +1,200 @@
+<style>
+    /*
+    #f45a3b,
+    #000000,
+    #d8d8d8,
+    #ff0000,
+    #999999,
+    #666666,
+    #ffffff
+    */
+    html {}
+
+    .triangle {
+        position: absolute;
+        left: 316px;
+        top: 110px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-right: 65px solid #ff0000;
+        border-bottom: 20px solid transparent;
+    }
+
+    .kernel {
+        position: absolute;
+        left: 380px;
+        top: 105px;
+        height: 320px;
+        width: 5px;
+        background-color: #999999;
+    }
+
+    .flag-top {
+        position: absolute;
+        left: 355px;
+        top: 425px;
+        width: 55px;
+        height: 10px;
+        border-radius: 5px 5px 0 0;
+        background-color: #000000;
+    }
+
+    .base {
+        position: absolute;
+        left: 355px;
+        top: 434px;
+        width: 55px;
+        height: 30px;
+        background-color: #666666;
+    }
+
+    .broken-rectangle {
+        position: absolute;
+        top: 464px;
+        left: 320px;
+        border-bottom: 56px solid #000000;
+        border-left: 24px solid transparent;
+        height: 0;
+        width: 70px;
+    }
+
+
+
+
+    .corp-cap {
+        position: absolute;
+        position: absolute;
+        top: 520px;
+        left: 252px;
+        background-color: #d8d8d8;
+        height: 50px;
+        width: 528px;
+        border-radius: 55px 100% 0 0;
+    }
+
+    .corps-neck {
+        position: absolute;
+        top: 570px;
+        left: 245px;
+        background-color: #ff0000;
+        height: 15px;
+        border-radius: 10px;
+        width: 540px;
+    }
+
+    .corps-main {
+        position: absolute;
+        top: 585px;
+        left: 255px;
+        border-radius: 0 0 25px 25px;
+        width: 520px;
+        height: 130px;
+        background-color: #f45a3b;
+
+    }
+
+
+
+    .frame-top {
+        content: "";
+        position: absolute;
+        top: 714px;
+        left: 270px;
+        border-bottom: 13px solid #222222;
+        border-left: 11px solid #fff;
+        border-right: 10px solid #fff;
+        width: 469px;
+        height: 0;
+    }
+
+    .frame-rectangle-top {
+        z-index: 0;
+        position: absolute;
+        top: 725px;
+        left: 271px;
+        width: 489px;
+        height: 50px;
+        background-color: #222;
+    }
+
+    .frame-rectangle-bottom {
+        z-index: 0;
+        position: absolute;
+        top: 775px;
+        left: 296px;
+        width: 416px;
+        height: 50px;
+        background-color: #222;
+    }
+
+    .frame-bottom {
+        content: "";
+        position: absolute;
+        left: 271px;
+        top: 754px;
+        border-top: 29px solid #222;
+        border-left: 29px solid #fff;
+        border-right: 29px solid #fff;
+        width: 431px;
+        height: 0px;
+    }
+
+    .wheels {
+        z-index: 1;
+        position: absolute;
+        width: 130px;
+        height: 130px;
+        background: #000000;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 70px;
+    }
+
+    .wheels-1 {
+        position: absolute;
+        top: 755px;
+        left: 281px;
+    }
+
+    .wheels-2 {
+        position: absolute;
+        top: 755px;
+        left: 455px;
+    }
+
+    .wheels-3 {
+        position: absolute;
+        top: 755px;
+        left: 630px;
+    }
+</style>
+<div class="triangle"></div>
+
+<div class="kernel"></div>
+
+<div class="flag-base">
+    <div class="flag-top"></div>
+    <div class="base"></div>
+</div>
+
+<div class="broken-rectangle"></div>
+
+<div class="corp-cap"></div>
+<div class="corps-neck"></div>
+<div class="corps-main"></div>
+
+<div class="frame">
+    <div class="frame-top"></div>
+    <div class="frame-rectangle-top"></div>
+    <div class="frame-bottom"></div>
+    <div class="frame-rectangle-bottom"></div>
+</div>
+
+<div class="wheels wheels-1"></div>
+<div class="wheels wheels-2"></div>
+<div class="wheels wheels-3"></div>
+
+
+<body>
+</body>
